@@ -1,0 +1,14 @@
+# fibonacci series.........
+
+n= int(input("enter a number= "))
+first= 0
+second= 1
+third= first + second
+print(first)
+print(second)
+while(third<=n):
+    print(third)
+    first= second
+    second= third
+    third = first+second
+    
